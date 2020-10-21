@@ -108,7 +108,23 @@ p {
     text-transform: lowercase;
 }
 
+
+/* Text selection */
+
 *::selection,
 *::-moz-selection {
     background: var(--highlight);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
 }
